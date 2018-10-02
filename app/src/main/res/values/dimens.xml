@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="form_text_height">24sp</dimen>
+    <dimen name="thumbnail_small_width">50dp</dimen>
+    <dimen name="thumbnail_small_height">50dp</dimen>
+    <dimen name="thumbnail_medium_width">100dp</dimen>
+    <dimen name="thumbnail_medium_height">100dp</dimen>
+</resources>

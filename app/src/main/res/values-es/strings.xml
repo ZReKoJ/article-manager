@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ArticleManager</string>
+    <!-- menus -->
+    <string name="action_search">Buscar</string>
+    <string name="action_exit">Salir</string>
+    <string name="action_add">Añadir</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_undo">Deshacer</string>
+    <string name="action_accept">Aceptar</string>
+    <string name="action_favourite">Favorito</string>
+    <!-- article labels -->
+    <string name="article_barcode">ID</string>
+    <string name="article_name">Nombre</string>
+    <string name="article_description">Descripción</string>
+    <!-- message texts -->
+    <string name="upsert_success">%1$s fue guardado correctamente</string>
+    <string name="delete_success">%1$s fue borrado correctamente</string>
+    <string name="delete_fail_not_created">Este artículo no fue creado</string>
+    <string name="save_fail_no_name">Este artículo no tiene nombre</string>
+
+    <string name="list_empty">La lista está vacía</string>
+    <string name="permissions">Permisos</string>
+    <string name="swipe_right_text">deslizar para ✰</string>
+</resources>

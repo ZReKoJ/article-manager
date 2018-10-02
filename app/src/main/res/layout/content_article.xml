@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/article_image"
+            android:layout_width="@dimen/thumbnail_medium_width"
+            android:layout_height="@dimen/thumbnail_medium_height"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/no_image" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/article_barcode_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_toStartOf="@id/article_barcode_scan"
+            android:layout_toEndOf="@id/article_image">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/article_barcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/article_barcode" />
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/article_barcode_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/article_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/article_barcode_input"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/article_image">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/article_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/article_name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/article_description_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/article_name_input">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/article_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/article_description" />
+        </android.support.design.widget.TextInputLayout>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

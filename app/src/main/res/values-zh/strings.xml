@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">物品管家</string>
+    <!-- menus -->
+    <string name="action_search">查询</string>
+    <string name="action_exit">退出</string>
+    <string name="action_add">添加</string>
+    <string name="action_delete">删除</string>
+    <string name="action_save">保存</string>
+    <string name="action_undo">撤销</string>
+    <string name="action_accept">确认</string>
+    <string name="action_favourite">喜欢</string>
+    <!-- article labels -->
+    <string name="article_barcode">代号</string>
+    <string name="article_name">名字</string>
+    <string name="article_description">解释</string>
+    <!-- message texts -->
+    <string name="upsert_success">%1$s 保存成功</string>
+    <string name="delete_success">%1$s 删除成功</string>
+    <string name="delete_fail_not_created">物品不在数据库</string>
+    <string name="save_fail_no_name">物品没名字</string>
+
+    <string name="list_empty">空白</string>
+    <string name="permissions">允许</string>
+    <string name="swipe_right_text">滑动 > ✰</string>
+</resources>

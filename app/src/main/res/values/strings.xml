@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ArticleManager</string>
+    <!-- menus -->
+    <string name="action_search">Search</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_add">Add</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_accept">Accept</string>
+    <string name="action_favourite">Favourite</string>
+    <!-- article labels -->
+    <string name="article_barcode">ID</string>
+    <string name="article_name">Name</string>
+    <string name="article_description">Description</string>
+    <!-- message texts -->
+    <string name="upsert_success">%1$s was successfully saved</string>
+    <string name="delete_success">%1$s was successfully deleted</string>
+    <string name="delete_fail_not_created">This article was not created</string>
+    <string name="save_fail_no_name">This article has no name</string>
+
+    <string name="list_empty">The list is empty</string>
+    <string name="permissions">Permissions</string>
+    <string name="swipe_right_text">swipe for ✰</string>
+</resources>
