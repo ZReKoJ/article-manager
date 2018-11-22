@@ -1,3 +1,3 @@
 ﻿# article-manager
 
-Learn Android Studio
+Learning Android Studio
